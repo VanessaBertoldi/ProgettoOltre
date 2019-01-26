@@ -15,7 +15,8 @@ CREATE TABLE Organizations (
 CREATE TABLE Schools ( 
   idschool INT PRIMARY KEY AUTO_INCREMENT, 
   name VARCHAR(30) NOT NULL, 
-  address VARCHAR(30) NOT NULL 
+  address VARCHAR(30) NOT NULL,
+  municipality VARCHAR(30) NOT NULL
 ); 
 
 
