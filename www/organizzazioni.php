@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Andare Oltre</title>
+	<title>Law &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -68,226 +68,266 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-				<nav class="fh5co-nav" role="navigation">
-					<div class="top-menu">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-11 text-right menu-1">
-									<ul>
-										<li class="active"><a href="index.php">Home</a></li>
-										<li class="has-dropdown">
-											<a href="come_partecipare.php">Come partecipare</a>
-											<ul class="dropdown">
-												<li><a href="scuole.php">Scuole</a></li>
-												<li><a href="partners.php">Partners</a></li>
-												<li><a href="studenti.php">Studenti</a></li>
-											</ul>
-										</li>
-										<li><a href="scuole.php">Scuole</a></li>
-										<li><a href="organizzazione.php">Organizzazioni</a></li>
-										<li><a href="i_nostri_progetti.php">I nostri progetti</a></li>
-										<li><a href="contatti.php">Contatti</a></li>
-										<li><a href="gallery.php">Galleria</a></li>
-										<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
-										<li class="btn-cta"><a href="registrati.php"><span>Registrati</span></a></li>
-									</ul>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</nav>
-				
-				<aside id="fh5co-hero" class="js-fullheight">
-					<div class="flexslider js-fullheight">
-						<ul class="slides">
-						<li style="background-image: url(images/img_bg_1.jpg);">
-							<div class="overlay-gradient"></div>
-							<div class="container">
-								<div class="row">
-									<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
-										<div class="slider-text-inner">
-											<h1>Andare Oltre</h1>
-												<!--<h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>-->
-												<p>L’Istituto di Formazione Professionale Alberghiero di Rovereto è ospitato in un edificio risalente al 1904 sorto come Istituto Pellagrologico.
-
-													L’ asilo dei pellagrosi, oggi restituito in splendida e rinnovata veste alla città, fu inaugurato nel 1905 grazie all'opera del medico roveretano Guido De Probizer (1849 -1929 ).    
-													L'Istituto Pellagrologico costituì la prima rocca per la difesa contro la pellagra, il duro morbo che desolava la vita delle comunità rurali trentine di fine Ottocento. Uomo di studio, di cuore e di azione, Guido De Probizer volle che l'Istituto sorgesse in una delle più belle posizioni di Rovereto: un visibile faro di civiltà, dal quale il tenace medico tesseva una capillare azione riparatrice contro gli effetti della pellagra.
-												</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-							
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-11 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.php">Home</a></li>
+							<li class="has-dropdown">
+								<a href="come_partecipare.php">Come partecipare</a>
+								<ul class="dropdown">
+									<li><a href="scuole.php">Scuole</a></li>
+									<li><a href="partners.php">Partners</a></li>
+									<li><a href="studenti.php">Studenti</a></li>
+								</ul>
+							</li>
+							<li><a href="scuole.php">Scuole</a></li>
+							<li><a href="organizzazioni.php">Organizzazioni</a></li>
+							<li><a href="i_nostri_progetti.php">I nostri progetti</a></li>
+							<li><a href="contact.php">Contatti</a></li>
+							<li><a href="gallery.php">Galleria</a></li>
+							<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
+							<li class="btn-cta"><a href="registrati.php"><span>Registrati</span></a></li>
 						</ul>
 					</div>
-				</aside>
-				<div id="fh5co-counter" class="fh5co-counters fh5co-bg-section">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4 text-center animate-box">
-								<span class="icon"><i class="icon-user"></i></span>
-								<span class="fh5co-counter js-counter" data-from="0" data-to="129" data-speed="5000" data-refresh-interval="50"></span>
-								<span class="fh5co-counter-label">Volontari</span>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<span class="icon"><i class="icon-home"></i></span>
-								<span class="fh5co-counter js-counter" data-from="0" data-to="3" data-speed="5000" data-refresh-interval="50"></span>
-								<span class="fh5co-counter-label">Scuole</span>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<span class="icon"><i class="icon-users"></i></span>
-								<span class="fh5co-counter js-counter" data-from="0" data-to="12" data-speed="5000" data-refresh-interval="50"></span>
-								<span class="fh5co-counter-label">Partner</span>
-							</div>
-						</div>
-					</div>
 				</div>
 				
-			<div id="fh5co-event" class="fh5co-bg-section">
-				<div class="container">
-					<div class="row animate-box">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>Le nostre attività</h2>
-							<p>Un tempo la formazione professione professionale era gestito dall’Enalc.</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services">
-								<span class="icon">
-									<i class="icon-home"></i>
-								</span>
-								<div class="desc">
-									<h3><a href="#">Cena di natale</a></h3>
-									<p class="date-event">25/12/2019</p>
-									<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services">
-								<span class="icon">
-									<i class="icon-home"></i>
-								</span>
-								<div class="desc">
-									<h3><a href="#">Casa di Riposo rovereto</a></h3>
-									<p class="date-event">20/01/2019</p>
-									<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services">
-								<span class="icon">
-									<i class="icon-home"></i>
-								</span>
-								<div class="desc">
-									<h3><a href="#">Pranzo</a></h3>
-									<p class="date-event">23/01/2019</p>
-									<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-md-12 text-center animate-box">
-							<p><a class="btn btn-primary btn-lg btn-learn" href="#">View More</a></p>
-						</div>
-					</div>
+			</div>
+		</div>
+	</nav>
+
+	<aside id="fh5co-hero" class="js-fullheight">
+		<div class="flexslider js-fullheight">
+			<ul class="slides">
+		   	<li style="background-image: url(images/img_bg_1.jpg);">
+		   		<div class="overlay-gradient"></div>
+		   		<div class="container">
+		   			<div class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text">
+		   				<div class="slider-text-inner desc">
+		   					<h2 class="heading-section">Practicing Area</h2>
+		   					<p class="fh5co-lead">Designed with <i class="icon-heart3"></i> by the fine folks at <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a></p>
+		   				</div>
+		   			</div>
+		   		</div>
+		   	</li>
+		  	</ul>
+	  	</div>
+	</aside>
+
+	<div id="fh5co-practice" class="fh5co-bg-section">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Our Legal Practice Area</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
-			
-			<div id="fh5co-project">
-				<div class="container">
-					<div class="row animate-box">
-						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-							<h2>Scuole coinvolte</h2>
+			<div class="row">
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="icon-home"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Real Estate Law</a></h3>
 							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 						</div>
 					</div>
 				</div>
-				<div class="container">
-					<div class="col-md-4 col-sm-6 text-center fh5co-project animate-box" data-animate-effect="fadeIn">
-						<a href="#"><img src="images/scuola1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
-						<h3>Istituto Tecnico Tecnologico Buonarroti - Pozzo</h3>
-						<span>Via Brigata Acqui, 15, 38122 Trento TN</span>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="icon-eye"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Insurance Law</a></h3>
+							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 text-center fh5co-project animate-box" data-animate-effect="fadeIn">
-						<a href="#"><img src="images/scuola2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
-						<h3>Alberghiero Trentino di Rovereto</h3>
-						<span>Viale dei Colli, 17, 38068 Rovereto TN</span>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="icon-shopping-cart"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Business Law</a></h3>
+							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						</div>
 					</div>
-					<div class="col-md-4 col-sm-6 text-center fh5co-project animate-box" data-animate-effect="fadeIn">
-						<a href="#"><img src="images/scuola3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive"></a>
-						<h3>Alberghiero Trentino di Levico</h3>
-						<span>Via Giorgio Ziehl, 5, 38056 Levico Terme TN</span>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="icon-umbrella"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Personal Injury</a></h3>
+							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="icon-heart"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Medical Neglegence</a></h3>
+							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="services">
+						<span class="icon">
+							<i class="icon-help"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Criminal Defense</a></h3>
+							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 text-center animate-box">
+					<p><a class="btn btn-primary btn-lg btn-learn" href="#">View More</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-testimonial">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+					<h2>Testimonials</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="row animate-box">
+						<div class="owl-carousel owl-carousel-fullwidth">
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/user-1.jpg" alt="user">
+									</figure>
+									<span>Jean Doe, via <a href="#" class="twitter">Twitter</a></span>
+									<blockquote>
+										<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/user-1.jpg" alt="user">
+									</figure>
+									<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+									<blockquote>
+										<p>&ldquo;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-slide active text-center">
+									<figure>
+										<img src="images/user-1.jpg" alt="user">
+									</figure>
+									<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
+									<blockquote>
+										<p>&ldquo;Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+									</blockquote>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			
-			<footer id="fh5co-footer" role="contentinfo">
-				<div class="container">
-					<div class="row row-pb-md">
-						<div class="col-md-3 fh5co-widget">
-							<h4>Andare Oltre</h4>
-							<p>L’Istituto di Formazione Professionale Alberghiero di Rovereto è ospitato in un edificio risalente al 1904 sorto come Istituto Pellagrologico. </p>
-						</div>
-						<div class="col-md-3 col-md-push-1">
-							<h4>Navigazione</h4>
-							<ul class="fh5co-footer-links">
-								<li class="active"><a href="index.php">Home</a></li>
-								<li>
-									<a href="come_partecipare.php">Come partecipare</a>
-									<ul class="dropdown">
-										<li><a href="scuole.php">Scuole</a></li>
-										<li><a href="partners.php">Partners</a></li>
-										<li><a href="studenti.php">Studenti</a></li>
-									</ul>
-								</li>
-								<li><a href="scuole.php">Scuole</a></li>
-								<li><a href="organizzazione.php">Organizzazioni</a></li>
-								<li><a href="i_nostri_progetti.php">I nostri progetti</a></li>
-								<li><a href="contatti.php">Contatti</a></li>
-								<li><a href="galleria.php">Galleria</a></li>
-								<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
-								<li class="btn-cta"><a href="registrati.php"><span>Registrati</span></a></li>
-							</ul>
-						</div>
-
-						<div class="col-md-3 col-md-push-1">
-							<h4>Contatti</h4>
-							<ul class="fh5co-footer-links">
-								<li>Viale dei Colli, 17, 38068 Rovereto TN</li>
-								<li><a href="tel://+39 0464 439164">+39 0464 439164</a></li>
-								<li><a href="mailto:andareoltre.com">info@yoursite.com</a></li>
-								<li><a href="http://gettemplates.co">gettemplates.co</a></li>
-							</ul>
-						</div>
-
-					</div>
-
-					<div class="row copyright">
-						<div class="col-md-12 text-center">
-							<p>
-								<small class="block">&copy;Tutti i diritti riservati.</small> 
-								<small class="block">Designed by <a href="http://buonarroti.tn.it/" target="_blank">I.T.T. Buonarroti</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-							</p>
-							<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-facebook"></i></a></li>
-								<li><a href="#"><i class="icon-linkedin"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble"></i></a></li>
-								</ul>
-							</p>
-						</div>
-					</div>
-
-				</div>
-			</footer>
-				
 		</div>
+	</div>
+
+
+	<div id="fh5co-started" style="background-image:url(images/img_bg_2.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Legal Advice</h2>
+					<p>We help people effectively fight their offenders back and successfully defend their own stand!</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<p><a href="#" class="btn btn-default btn-lg">Consultation</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-3 fh5co-widget">
+					<h4>Andare Oltre</h4>
+					<p>L’Istituto di Formazione Professionale Alberghiero di Rovereto è ospitato in un edificio risalente al 1904 sorto come Istituto Pellagrologico. </p>
+				</div>
+				<div class="col-md-3 col-md-push-1">
+					<h4>Navigazione</h4>
+					<ul class="fh5co-footer-links">
+						<li class="active"><a href="index.php">Home</a></li>
+						<li>
+							<a href="come_partecipare.php">Come partecipare</a>
+							<ul class="dropdown">
+								<li><a href="scuole.php">Scuole</a></li>
+								<li><a href="partners.php">Partners</a></li>
+								<li><a href="studenti.php">Studenti</a></li>
+							</ul>
+						</li>
+						<li><a href="scuole.php">Scuole</a></li>
+						<li><a href="organizzazioni.php">Organizzazioni</a></li>
+						<li><a href="i_nostri_progetti.php">I nostri progetti</a></li>
+						<li><a href="contact.php">Contatti</a></li>
+						<li><a href="gallery.php">Galleria</a></li>
+						<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
+						<li class="btn-cta"><a href="registrati.php"><span>Registrati</span></a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-3 col-md-push-1">
+					<h4>Contatti</h4>
+					<ul class="fh5co-footer-links">
+						<li>Viale dei Colli, 17, 38068 Rovereto TN</li>
+						<li><a href="tel://+39 0464 439164">+39 0464 439164</a></li>
+						<li><a href="mailto:andareoltre.com">info@yoursite.com</a></li>
+						<li><a href="http://gettemplates.co">gettemplates.co</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy;Tutti i diritti riservati.</small> 
+						<small class="block">Designed by <a href="http://buonarroti.tn.it/" target="_blank">I.T.T. Buonarroti</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+						<li><a href="#"><i class="icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-linkedin"></i></a></li>
+						<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
