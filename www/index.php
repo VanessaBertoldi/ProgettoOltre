@@ -76,7 +76,7 @@
 									<ul>
 										<li class="active"><a href="index.php">Home</a></li>
 										<li class="has-dropdown">
-											<a href="come_partecipare.php">Come partecipare</a>
+											<a href="partecipare.php">Come partecipare</a>
 											<ul class="dropdown">
 												<li><a href="scuole.php">Scuole</a></li>
 												<li><a href="partners.php">Partners</a></li>
@@ -84,8 +84,8 @@
 											</ul>
 										</li>
 										<li><a href="scuole.php">Scuole</a></li>
-										<li><a href="organizzazione.php">Organizzazioni</a></li>
-										<li><a href="i_nostri_progetti.php">I nostri progetti</a></li>
+										<li><a href="organizzazioni.php">Organizzazioni</a></li>
+										<li><a href="progetti.php">I nostri progetti</a></li>
 										<li><a href="contatti.php">Contatti</a></li>
 										<li><a href="gallery.php">Galleria</a></li>
 										<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
@@ -238,7 +238,7 @@
 							<ul class="fh5co-footer-links">
 								<li class="active"><a href="index.php">Home</a></li>
 								<li>
-									<a href="come_partecipare.php">Come partecipare</a>
+									<a href="partecipare.php">Come partecipare</a>
 									<ul class="dropdown">
 										<li><a href="scuole.php">Scuole</a></li>
 										<li><a href="partners.php">Partners</a></li>
@@ -246,8 +246,8 @@
 									</ul>
 								</li>
 								<li><a href="scuole.php">Scuole</a></li>
-								<li><a href="organizzazione.php">Organizzazioni</a></li>
-								<li><a href="i_nostri_progetti.php">I nostri progetti</a></li>
+								<li><a href="organizzazioni.php">Organizzazioni</a></li>
+								<li><a href="progetti.php">I nostri progetti</a></li>
 								<li><a href="contatti.php">Contatti</a></li>
 								<li><a href="galleria.php">Galleria</a></li>
 								<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
