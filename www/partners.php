@@ -85,7 +85,7 @@
 							</li>
 							<li><a href="scuole.php">Scuole</a></li>
 							<li><a href="organizzazioni.php">Organizzazioni</a></li>
-							<li><a href="i_nostri_progetti.php">I nostri progetti</a></li>
+							<li><a href="progetti.php">I nostri progetti</a></li>
 							<li><a href="contact.php">Contatti</a></li>
 							<li><a href="gallery.php">Galleria</a></li>
 							<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
@@ -288,7 +288,7 @@
 						</li>
 						<li><a href="scuole.php">Scuole</a></li>
 						<li><a href="organizzazioni.php">Organizzazioni</a></li>
-						<li><a href="i_nostri_progetti.php">I nostri progetti</a></li>
+						<li><a href="progetti.php">I nostri progetti</a></li>
 						<li><a href="contact.php">Contatti</a></li>
 						<li><a href="gallery.php">Galleria</a></li>
 						<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
