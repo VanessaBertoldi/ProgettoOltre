@@ -59,7 +59,7 @@
 	<link rel="stylesheet" href="css/loginPopup.css">
 
 	<!-- script js per il popup del login  -->
-	<script src="js/scriptLogin.js"></script>
+	<script src="js/popupLogin.js"></script>
 	
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -99,7 +99,7 @@
 										<li><a href="progetti.php">I nostri progetti</a></li>
 										<li><a href="contatti.php">Contatti</a></li>
 										<li><a href="gallery.php">Galleria</a></li>
-										<li class="btn-cta"  onclick=""><a href="#"><span>Login</span></a></li>
+										<li class="btn-cta"  onclick="openPopup()"><a href="#"><span>Login</span></a></li>
 										<li class="btn-cta"><a href="registrati.php"><span>Registrati</span></a></li>
 									</ul>
 								</div>
