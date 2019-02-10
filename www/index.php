@@ -55,6 +55,12 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- foglio di stile per il popup del login  -->
+	<link rel="stylesheet" href="css/loginPopup.css">
+
+	<!-- script js per il popup del login  -->
+	<script src="js/scriptLogin.js"></script>
+	
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -64,6 +70,11 @@
 
 	</head>
 	<body>
+		
+	<!-- inclusione del codice php per gestire il login -->
+	<?php
+		include "php/indexLogin.php";
+	?>
 		
 	<div class="fh5co-loader"></div>
 	
@@ -88,7 +99,7 @@
 										<li><a href="progetti.php">I nostri progetti</a></li>
 										<li><a href="contatti.php">Contatti</a></li>
 										<li><a href="gallery.php">Galleria</a></li>
-										<li class="btn-cta"><a href="login.php"><span>Login</span></a></li>
+										<li class="btn-cta"  onclick=""><a href="#"><span>Login</span></a></li>
 										<li class="btn-cta"><a href="registrati.php"><span>Registrati</span></a></li>
 									</ul>
 								</div>
@@ -123,6 +134,37 @@
 						</ul>
 					</div>
 				</aside>
+		
+				<!-- inizio codice del popup di login -->
+				<div id="idLogin" class="modal">
+  
+					<form class="modal-content animate" method="POST" action="<?php echo $_SERVER['PHP_SELF']?>">
+		
+						<span onclick="document.getElementById('idLogin').style.display='none'" class="close" title="Close Modal">&times;</span>
+			
+						<div class="container">
+							<div class="row form-group">
+								<label for="uname" class="labelUP"><b>Username</b></label>
+								<input type="text" placeholder="Enter Mail" name="mail" value="<?=$mail?>" class="login-input form-control" required>
+							</div>
+							<div class="row form-group">
+								<label for="psw" class="labelUP"><b>Password</b></label>
+								<input type="password" placeholder="Enter Password" name="psw" class="login-input form-control" required>
+							</div>
+							<button type="submit" name="login" class="form-btn btn btn-primary">Login</button>
+							<label>
+								<input type="checkbox" checked="checked" name="remember"> Remember me
+							</label>
+						</div>
+
+						<div class="container" style="background-color:#f1f1f1">
+							<span class="psw">Forgot <a href="#">password?</a></span>
+						</div>
+					</form>
+		
+				</div>
+				<!-- fine codice del popup di login -->
+				
 				<div id="fh5co-counter" class="fh5co-counters fh5co-bg-section">
 					<div class="container">
 						<div class="row">
