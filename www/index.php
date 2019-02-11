@@ -100,7 +100,7 @@
 										<li><a href="contatti.php">Contatti</a></li>
 										<li><a href="gallery.php">Galleria</a></li>
 										<li class="btn-cta"  onclick="openPopup()"><a href="#"><span>Login</span></a></li>
-										<li class="btn-cta"><a href="registrati.php"><span>Registrati</span></a></li>
+										<li class="btn-cta" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><a href="#"><span>Registrati</span></a></li>
 									</ul>
 								</div>
 							</div>
