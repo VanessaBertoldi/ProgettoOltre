@@ -165,6 +165,291 @@
 				</div>
 				<!-- fine codice del popup di login -->
 				
+				<!-- Registrazione -->
+    <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div  class="col-md-12  text-center">
+                        <p>Crea il tuo account in pochi, semplici e veloci passaggi</p>
+                    </div>
+			         <div class="col-md-4  text-center ">
+                        <button class="btn btn-primary btn-lg btn-learn" href="#" onmousedown="document.getElementById('idStud').style.display='block' ; document.getElementById('id01').style.display='none' " >Sono uno studente</button>
+                  </div>
+                    <div class="col-md-4  text-center ">
+                <button class="btn btn-primary btn-lg btn-learn" href="#" onmousedown="document.getElementById('idDoc').style.display='block' ; document.getElementById('id01').style.display='none' ">Sono un docente</button></div>
+                        <div class="col-md-4  text-center ">
+                <button class="btn btn-primary btn-lg btn-learn" href="#" onmousedown="document.getElementById('idOrg').style.display='block' ; document.getElementById('id01').style.display='none' ">Sono un'associazione</button></div>
+            </div>
+                </div>
+        </form>
+    </div>
+    <!-- Registrazione fin -->   
+        
+        
+    <!-- Registrazione studente -->
+    <div id="idStud" class="modal">
+  
+        <form name="registrazione" class="modal-content animate" method="post" action="<?php echo $_SERVER['PHP_SELF'] ?>" >
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('idStud').style.display='none'" class="close" title="Close Modal">&times;</span>
+                
+            </div>
+
+            <div class="container">
+                <div class="row form-group">
+                    <div  class="col-md-12  text-center">
+                        <p>Completa la tua iscrizione inserendo i dati richiesti</p>
+						<div class="col-md-4  text-center ">
+							<p>Scegli la scuola che frequenti:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<select id="selectSchool" name="selectSchool" class="selectSchool"   style="webkit-border-radius: 30px; moz-border-radius: 30px; border-radius: 30px; font-size: 16px; font-weight: 400; padding: 
+							18px 36px" required>
+
+								<option>Seleziona la tua scuola</option>
+								<option>ITT Buonnaroti</option>
+							</select>
+						</div>
+					</div>
+                    <div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Nome:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" name="name" id="name" class="form-control" placeholder="Inserisci il tuo nome" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Cognome:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="surname" name="surname" class="form-control" placeholder="Inserisci il tuo cognome" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Password:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="password" id="fname" name="password" class="form-control" placeholder="Inserisci la password" required>
+						</div>		
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Conferma password:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="password" id="fname" name="confirmpassword" class="form-control" placeholder="Conferma la password" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Mail:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="fname" name="mail" class="form-control" placeholder="Inserisci la tua mail" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Numero di telefono:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="fname" name="telephone" class="form-control" placeholder="Inserisci il tuo numero di telefono">
+						</div>
+					</div>
+                    <div  class="col-md-12  text-center">
+                        <button type="submit" class="btn btn-primary btn-lg btn-learn" name="inviastudente" >Iscriviti</button>
+					</div>
+				</div>
+            </div>
+        </form>
+    </div>    
+    <!-- Registrazione studente fine -->
+	
+	<!-- Registrazione docente -->
+    <div id="idDoc" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('idDoc').style.display='none'" class="close" title="Close Modal">&times;</span>
+                
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div  class="col-md-12  text-center">
+                        <p>Completa la tua iscrizione inserendo i dati richiesti</p>
+						<div class="col-md-4  text-center ">
+							<p>Scegli la scuola che frequenti:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<select id="selectSchool" name="selectSchool" class="selectSchool"   style="webkit-border-radius: 30px; moz-border-radius: 30px; border-radius: 30px; font-size: 16px; font-weight: 400; padding: 
+							18px 36px" required>
+								<option>Seleziona la tua scuola</option>
+								<option>ITT Buonnaroti</option>
+							</select>
+						</div>
+					</div>
+				</div>
+                    <div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Nome:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" name="nome" id="fname" class="form-control" placeholder="Inserisci il tuo nome" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Cognome:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="fname" class="form-control" placeholder="Inserisci il tuo cognome" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Password:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="password" id="fname" class="form-control" placeholder="Inserisci la password" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Conferma password:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="password" id="fname" class="form-control" placeholder="Conferma la password" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Mail:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="fname" class="form-control" placeholder="Inserisci la tua mail" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Numero di telefono:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="fname" class="form-control" placeholder="Inserisci il tuo numero di telefono">
+						</div>
+					</div>
+                    <div  class="col-md-12  text-center">
+                        <button type="submit" class="btn btn-primary btn-lg btn-learn" name="inviastudente" >Iscriviti</button>
+					</div>
+            </div>
+        </form>
+    </div>    
+    <!-- Registrazione docente fine -->
+	
+	<!-- Registrazione organizzazione -->
+    <div id="idOrg" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('idOrg').style.display='none'" class="close" title="Close Modal">&times;</span>
+                
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div  class="col-md-12  text-center">
+                        <p>Completa la tua iscrizione inserendo i dati richiesti</p>
+			<div  class="col-md-12  text-center">
+                        	<div class="col-md-4  text-center ">
+					<p>Nome:</p>
+				</div>
+				<div class="col-md-8  text-center ">
+					<input type="text" name="nome" id="fname" class="form-control" placeholder="Inserisci il tuo nome" required>
+				</div>
+			</div>
+			<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Cognome:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="fname" class="form-control" placeholder="Inserisci il tuo cognome" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Password:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="password" id="fname" class="form-control" placeholder="Inserisci la password" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Conferma password:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="password" id="fname" class="form-control" placeholder="Conferma la password" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Mail:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="fname" class="form-control" placeholder="Inserisci la tua mail" required>
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <div class="col-md-4  text-center ">
+							<p>Numero di telefono:</p>
+						</div>
+						<div class="col-md-8  text-center ">
+							<input type="text" id="fname" class="form-control" placeholder="Inserisci il tuo numero di telefono">
+						</div>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <p>Inserisci i dati relativi l'organizzazione a cui sei iscritto</p>
+					</div>
+					<div  class="col-md-12  text-center">
+                        <button type="submit" class="btn btn-primary btn-lg btn-learn" name="inviastudente" >Iscriviti</button>
+					</div>
+					</div>
+				</div>
+			    </div>
+			</form>
+		    </div>    
+			<li class="btn-cta" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><a href="#"><span>Registrati</span></a></li>
+		    <!-- Registrazione organizzazione fine -->
+
+		    <!-- Passo finale registrazione -->
+		    <div id="popFinale" class="modal">
+
+			<form class="modal-content animate" action="/action_page.php">
+			    <div class="imgcontainer">
+				<span onclick="document.getElementById('popFinale').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+			    </div>
+
+			    <div class="container">
+				<div class="row">
+				    <div  class="col-md-12  text-center">
+					<p>Ti è stata spedita una e-mail, accedi al tuo account per confermare l'iscrizione</p>
+				    </div>
+			    </div>
+				</div>
+			</form>
+		    </div>
+			<!-- fine registrazione tutto-->
 				<div id="fh5co-counter" class="fh5co-counters fh5co-bg-section">
 					<div class="container">
 						<div class="row">
