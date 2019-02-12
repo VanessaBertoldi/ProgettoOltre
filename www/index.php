@@ -59,7 +59,7 @@
 	<link rel="stylesheet" href="css/loginPopup.css">
 
 	<!-- script js per il popup del login  -->
-	<script src="js/popupLogin.js"></script>
+	<script src="js/popupLogin.js" type="text/javascript"></script>
 	
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
