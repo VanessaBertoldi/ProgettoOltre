@@ -20,7 +20,7 @@ CREATE TABLE GB_Project
   IDProject INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
   name VARCHAR(30) NOT NULL,
   description TEXT NOT NULL,
-  PrjImgFolder VARCHAR(200),
+  PrjImgFolder VARCHAR(200) DEFAULT NULL,
   stat VARCHAR(20) NOT NULL
 );
 
@@ -49,8 +49,8 @@ CREATE TABLE GB_Activity
 (
   IDActivity INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
   name VARCHAR(30) NOT NULL,
+  ActImgFolder VARCHAR(200) DEFAULT NULL,
   stat VARCHAR(20) NOT NULL,
-  ActImgFolder VARCHAR(200),
   IDProject INT,
   
   FOREIGN KEY(IDProject) REFERENCES GB_Project(IDProject)
@@ -95,7 +95,7 @@ CREATE TABLE GB_User
   phone VARCHAR(14) NOT NULL,
   mail VARCHAR(50) NOT NULL,
   psw VARCHAR(30) NOT NULL,
-  stat VARCHAR(20) NOT NULL,
+  stat INT(11) NOT NULL,
   IDSchool INT,
   IDRole INT NOT NULL,
   IDOrganization INT,
@@ -186,11 +186,11 @@ VALUES
     
 INSERT INTO GB_User(name, lastname, phone, mail, psw, stat, IDSchool, IDRole)
 VALUES
-	('Edoardo', 'Cellana', '00393659989708', 'edoardo.cellana@someprovider.com', 'passwordadmin', 'Attivato',3,0),
-    ('luca', 'Montel', '00393457725763', 'luca.montel@someprovider.com', 'lamiapassword', 'Attivato',1,10),
-    ('Giovanni', 'Montel', '00393468893685', 'giovanni.montel@someprovider.com', 'lamiavita', 'Disattivato',2,11),
-    ('Francesco', 'Dellai', '00393237859334', 'francesco.dellai@someprovider.com', 'faschifo', 'Attivato',3,20),
-    ('luca', 'Rossi', '00393930468263', 'luca.rossi@someprovider.com', 'losappiamotutti', 'Bloccato',3,11);
+	('Edoardo', 'Cellana', '00393659989708', 'edoardo.cellana@someprovider.com', 'passwordadmin', 1,3,0),
+    ('luca', 'Montel', '00393457725763', 'luca.montel@someprovider.com', 'lamiapassword', 1,1,10),
+    ('Giovanni', 'Montel', '00393468893685', 'giovanni.montel@someprovider.com', 'lamiavita', 0,2,11),
+    ('Francesco', 'Dellai', '00393237859334', 'francesco.dellai@someprovider.com', 'faschifo', 1,3,20),
+    ('luca', 'Rossi', '00393930468263', 'luca.rossi@someprovider.com', 'losappiamotutti', 3,3,11);
     
     
 INSERT INTO GB_Project(name, description, stat)
